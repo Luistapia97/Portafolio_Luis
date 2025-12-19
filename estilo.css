@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: #1c90b6;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -45,10 +45,10 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color: #1c90b6;
 }
 .nav-responsive{
-    background-color: #1CB698;
+    background-color: #1c90b6;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -58,7 +58,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    url(img/experiencia-en-programacion-con-una-persona-que-trabaja-con-codigos-en-la-computadora.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -75,7 +75,7 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #1CB698;
+    border: 10px solid #1c90b6;
     display: block;
     width: 80%;
     margin: auto;
@@ -104,7 +104,12 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #1c90b6;
+}
+/* Hover específico para GitHub */
+.inicio .contenido-banner .redes a:has(.fa-github):hover{
+    background-color: #24292e;
+    border-color: #24292e;
 }
 .sobremi{
     background-color: #1e2326;
@@ -123,12 +128,12 @@ html{
 
 }
 .sobremi .contenido-seccion p{
-    font: 18px;
+    font-size: 18px;
     line-height: 22px;
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #1c90b6;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -151,11 +156,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #1c90b6;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #1c90b6;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -176,7 +181,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color: #1c90b6;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -201,7 +206,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #1c90b6;
     z-index: -1;
     transition: 1s;
 }
@@ -250,7 +255,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color: #1c90b6;
     position: absolute;
     top: 0;
     left: 0;
@@ -260,7 +265,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #1c90b6;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -275,7 +280,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .htmlcss{
@@ -284,34 +289,34 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 80%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .react{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s react forwards;
 }
-@keyframes photoshop {
+@keyframes react {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 75%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .vuejs{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s vuejs forwards;
 }
-@keyframes wordpress {
+@keyframes vuejs {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 75%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .mysql{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s mysql forwards;
 }
-@keyframes drupal {
+@keyframes mysql {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 65%;}
 }
 
 .skills .skill .comunicacion{
@@ -320,7 +325,7 @@ html{
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .trabajo{
@@ -329,7 +334,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .creatividad{
@@ -338,7 +343,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 88%;}
 }
 
 .skills .skill .dedicacion{
@@ -347,16 +352,16 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 99%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .autodidacta{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s autodidacta forwards;
 }
-@keyframes proyect {
+@keyframes autodidacta {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 90%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
@@ -405,30 +410,30 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    color: #1c90b6;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #1CB698;
+    color: #1c90b6;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid #1c90b6;
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #1CB698;
+    border-left: 2px solid #1c90b6;
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #1c90b6;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -440,14 +445,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #1c90b6;
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #1c90b6;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -459,7 +464,7 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #1c90b6;
     float: left;
     position: relative;
     bottom: 4px;
@@ -575,7 +580,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #1c90b6;
     z-index: -1;
     transition: 1s;
 }
@@ -590,7 +595,7 @@ html{
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -601,9 +606,113 @@ html{
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    color: #1c90b6;
     display: inline-block;
     margin-right: 20px;
+}
+/* MODAL PROYECTO */
+.modal-proyecto {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.modal-contenido {
+    background-color: #1e2326;
+    border-radius: 15px;
+    max-width: 900px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    animation: slideIn 0.3s;
+}
+@keyframes slideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+.cerrar-modal {
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1001;
+    transition: 0.3s;
+}
+.cerrar-modal:hover {
+    color: #1c90b6;
+    transform: rotate(90deg);
+}
+.modal-body {
+    padding: 30px;
+    color: #fff;
+}
+.modal-imagenes {
+    margin-bottom: 25px;
+}
+.modal-imagenes img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.modal-info h2 {
+    font-family: 'Righteous';
+    font-size: 32px;
+    color: #1c90b6;
+    margin-bottom: 20px;
+}
+.modal-tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.tech-badge {
+    background-color: #1c90b6;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+.modal-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ccc;
+    text-align: justify;
+}
+/* Responsive para modal */
+@media screen and (max-width: 700px) {
+    .modal-contenido {
+        width: 95%;
+        max-height: 85vh;
+    }
+    .modal-body {
+        padding: 20px;
+    }
+    .modal-info h2 {
+        font-size: 24px;
+    }
+    .cerrar-modal {
+        right: 15px;
+        top: 10px;
+        font-size: 30px;
+    }
 }
 footer{
     background-color: #252A2E;
@@ -629,11 +738,19 @@ footer .redes a{
     font-size: 20px;
     transition: .3s;
 }
+/* Hover específico para GitHub en footer */
+footer .redes a:has(.fa-github):hover{
+    background-color: #24292e;
+    border-color: #24292e;
+}
+footer .redes a:hover{
+    background-color: #1c90b6;
+}
 footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #1c90b6;
     color: #fff;
     position: absolute;
     left: 50%;
