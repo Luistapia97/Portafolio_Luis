@@ -1,0 +1,41 @@
+# robots.txt para Luis Alberto Ramírez Tapia - Desarrollador Web
+# Actualizado: 15 de febrero de 2026
+
+User-agent: *
+Allow: /
+Allow: /img/
+Allow: /data/
+Allow: /docs/
+
+# Archivos CSS y JS permitidos para mejor indexación
+Allow: /estilo.css
+Allow: /estilos-nuevos.css
+Allow: /script.js
+
+# Bloquear archivos sensibles
+Disallow: /data/blog.json
+Disallow: /node_modules/
+Disallow: /.git/
+
+# Sitemap
+Sitemap: https://luistapia97.github.io/Portafolio_Luis/sitemap.xml
+
+# Crawl-delay para bots amigables
+Crawl-delay: 1
+
+# Googlebot específico
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Bloquear scrapers maliciosos
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10

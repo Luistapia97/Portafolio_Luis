@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Página Principal -->
+  <url>
+    <loc>https://luistapia97.github.io/Portafolio_Luis/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://luistapia97.github.io/Portafolio_Luis/img/picPortafolio-luis.jpg</image:loc>
+      <image:title>Luis Alberto Ramírez Tapia - Desarrollador Web</image:title>
+    </image:image>
+  </url>
+
+  <!-- Sección Inicio -->
+  <url>
+    <loc>https://luistapia97.github.io/Portafolio_Luis/#inicio</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sección Sobre Mí -->
+  <url>
+    <loc>https://luistapia97.github.io/Portafolio_Luis/#sobremi</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sección Servicios -->
+  <url>
+    <loc>https://luistapia97.github.io/Portafolio_Luis/#servicios</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sección Skills -->
+  <url>
+    <loc>https://luistapia97.github.io/Portafolio_Luis/#skills</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Sección Curriculum -->
+  <url>
+    <loc>https://luistapia97.github.io/Portafolio_Luis/#curriculum</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sección Portfolio -->
+  <url>
+    <loc>https://luistapia97.github.io/Portafolio_Luis/#portfolio</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sección Proceso de Trabajo -->
+  <url>
+    <loc>https://luistapia97.github.io/Portafolio_Luis/#workflow</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sección Paquetes y Precios -->
+  <url>
+    <loc>https://luistapia97.github.io/Portafolio_Luis/#packages</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sección Contacto -->
+  <url>
+    <loc>https://luistapia97.github.io/Portafolio_Luis/#contacto</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
