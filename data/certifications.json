@@ -1,0 +1,46 @@
+{
+  "certifications": [
+    {
+      "name": "JavaScript Algorithms and Data Structures",
+      "issuer": "freeCodeCamp",
+      "date": "2024",
+      "credentialUrl": "#",
+      "icon": "fa-brands fa-js"
+    },
+    {
+      "name": "Vue.js Developer Certification",
+      "issuer": "Vue School",
+      "date": "2024",
+      "credentialUrl": "#",
+      "icon": "fa-brands fa-vuejs"
+    },
+    {
+      "name": "React - The Complete Guide",
+      "issuer": "Udemy",
+      "date": "2023",
+      "credentialUrl": "#",
+      "icon": "fa-brands fa-react"
+    },
+    {
+      "name": "Node.js Backend Development",
+      "issuer": "Platzi",
+      "date": "2023",
+      "credentialUrl": "#",
+      "icon": "fa-brands fa-node-js"
+    },
+    {
+      "name": "Flutter and Dart Development",
+      "issuer": "Udemy",
+      "date": "2024",
+      "credentialUrl": "#",
+      "icon": "fa-solid fa-mobile-screen"
+    },
+    {
+      "name": "Docker and Kubernetes",
+      "issuer": "Coursera",
+      "date": "2023",
+      "credentialUrl": "#",
+      "icon": "fa-brands fa-docker"
+    }
+  ]
+}

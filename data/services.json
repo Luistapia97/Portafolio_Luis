@@ -1,0 +1,228 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": {
+        "es": "Desarrollo Web Full-Stack",
+        "en": "Full-Stack Web Development"
+      },
+      "icon": "fa-solid fa-code",
+      "description": {
+        "es": "Desarrollo completo de aplicaciones web modernas con las últimas tecnologías.",
+        "en": "Complete development of modern web applications with the latest technologies."
+      },
+      "features": {
+        "es": [
+          "Frontend con React/Vue.js",
+          "Backend con Node.js/Python",
+          "Bases de datos SQL/NoSQL",
+          "APIs RESTful",
+          "Responsive Design",
+          "Optimización SEO"
+        ],
+        "en": [
+          "Frontend with React/Vue.js",
+          "Backend with Node.js/Python",
+          "SQL/NoSQL Databases",
+          "RESTful APIs",
+          "Responsive Design",
+          "SEO Optimization"
+        ]
+      },
+      "packages": [
+        {
+          "name": "Básico",
+          "price": "$500 USD",
+          "features": {
+            "es": ["Landing page", "Diseño responsivo", "Formulario de contacto", "3 revisiones"],
+            "en": ["Landing page", "Responsive design", "Contact form", "3 revisions"]
+          }
+        },
+        {
+          "name": "Profesional",
+          "price": "$1,500 USD",
+          "features": {
+            "es": ["Aplicación web completa", "Panel de administración", "Base de datos", "API REST", "5 revisiones"],
+            "en": ["Complete web application", "Admin panel", "Database", "REST API", "5 revisions"]
+          }
+        },
+        {
+          "name": "Enterprise",
+          "price": "Cotización",
+          "features": {
+            "es": ["Solución personalizada", "Arquitectura escalable", "Integración con APIs", "Soporte 24/7", "Revisiones ilimitadas"],
+            "en": ["Custom solution", "Scalable architecture", "API integration", "24/7 support", "Unlimited revisions"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": {
+        "es": "Aplicaciones Móviles",
+        "en": "Mobile Applications"
+      },
+      "icon": "fa-solid fa-mobile-screen-button",
+      "description": {
+        "es": "Desarrollo de aplicaciones móviles nativas y multiplataforma.",
+        "en": "Development of native and cross-platform mobile applications."
+      },
+      "features": {
+        "es": [
+          "Flutter/React Native",
+          "iOS y Android",
+          "Diseño UX/UI",
+          "Push notifications",
+          "Integración de APIs",
+          "Publicación en stores"
+        ],
+        "en": [
+          "Flutter/React Native",
+          "iOS and Android",
+          "UX/UI Design",
+          "Push notifications",
+          "API Integration",
+          "Store publication"
+        ]
+      },
+      "packages": [
+        {
+          "name": "Básico",
+          "price": "$1,000 USD",
+          "features": {
+            "es": ["App multiplataforma", "5 pantallas", "Diseño básico", "2 revisiones"],
+            "en": ["Cross-platform app", "5 screens", "Basic design", "2 revisions"]
+          }
+        },
+        {
+          "name": "Profesional",
+          "price": "$3,000 USD",
+          "features": {
+            "es": ["App completa", "Hasta 15 pantallas", "Backend incluido", "Notificaciones push", "4 revisiones"],
+            "en": ["Complete app", "Up to 15 screens", "Backend included", "Push notifications", "4 revisions"]
+          }
+        },
+        {
+          "name": "Enterprise",
+          "price": "Cotización",
+          "features": {
+            "es": ["Solución empresarial", "Pantallas ilimitadas", "Integración completa", "Mantenimiento", "Revisiones ilimitadas"],
+            "en": ["Enterprise solution", "Unlimited screens", "Full integration", "Maintenance", "Unlimited revisions"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": {
+        "es": "Consultoría Técnica",
+        "en": "Technical Consulting"
+      },
+      "icon": "fa-solid fa-users-gear",
+      "description": {
+        "es": "Asesoría técnica para optimizar tu stack tecnológico y procesos.",
+        "en": "Technical advisory to optimize your technology stack and processes."
+      },
+      "features": {
+        "es": [
+          "Auditoría de código",
+          "Arquitectura de software",
+          "Optimización de performance",
+          "Seguridad",
+          "Migración de tecnologías",
+          "Code review"
+        ],
+        "en": [
+          "Code audit",
+          "Software architecture",
+          "Performance optimization",
+          "Security",
+          "Technology migration",
+          "Code review"
+        ]
+      },
+      "packages": [
+        {
+          "name": "Sesión",
+          "price": "$100 USD/hora",
+          "features": {
+            "es": ["1 hora de consultoría", "Reporte básico", "Recomendaciones"],
+            "en": ["1 hour consultation", "Basic report", "Recommendations"]
+          }
+        },
+        {
+          "name": "Proyecto",
+          "price": "$800 USD",
+          "features": {
+            "es": ["10 horas", "Auditoría completa", "Documento detallado", "Plan de acción", "2 seguimientos"],
+            "en": ["10 hours", "Complete audit", "Detailed document", "Action plan", "2 follow-ups"]
+          }
+        },
+        {
+          "name": "Mensual",
+          "price": "$2,000 USD/mes",
+          "features": {
+            "es": ["Asesoría continua", "Disponibilidad prioritaria", "Reportes mensuales", "Soporte técnico"],
+            "en": ["Continuous advisory", "Priority availability", "Monthly reports", "Technical support"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": {
+        "es": "Mantenimiento y Soporte",
+        "en": "Maintenance and Support"
+      },
+      "icon": "fa-solid fa-screwdriver-wrench",
+      "description": {
+        "es": "Mantenimiento continuo y soporte técnico para tus aplicaciones.",
+        "en": "Continuous maintenance and technical support for your applications."
+      },
+      "features": {
+        "es": [
+          "Actualizaciones",
+          "Corrección de bugs",
+          "Monitoreo 24/7",
+          "Backups automáticos",
+          "Optimización",
+          "Soporte técnico"
+        ],
+        "en": [
+          "Updates",
+          "Bug fixes",
+          "24/7 monitoring",
+          "Automatic backups",
+          "Optimization",
+          "Technical support"
+        ]
+      },
+      "packages": [
+        {
+          "name": "Básico",
+          "price": "$200 USD/mes",
+          "features": {
+            "es": ["Actualizaciones mensuales", "2 horas soporte", "Backups semanales"],
+            "en": ["Monthly updates", "2 hours support", "Weekly backups"]
+          }
+        },
+        {
+          "name": "Profesional",
+          "price": "$500 USD/mes",
+          "features": {
+            "es": ["Actualizaciones quincenales", "10 horas soporte", "Monitoreo", "Backups diarios"],
+            "en": ["Biweekly updates", "10 hours support", "Monitoring", "Daily backups"]
+          }
+        },
+        {
+          "name": "Enterprise",
+          "price": "$1,200 USD/mes",
+          "features": {
+            "es": ["Soporte 24/7", "Horas ilimitadas", "Monitoreo avanzado", "SLA garantizado"],
+            "en": ["24/7 support", "Unlimited hours", "Advanced monitoring", "Guaranteed SLA"]
+          }
+        }
+      ]
+    }
+  ]
+}

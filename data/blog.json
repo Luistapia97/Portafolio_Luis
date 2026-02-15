@@ -1,0 +1,73 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": {
+        "es": "Mejores prácticas en Vue.js 3",
+        "en": "Best practices in Vue.js 3"
+      },
+      "excerpt": {
+        "es": "Descubre las mejores prácticas para desarrollar aplicaciones escalables con Vue.js 3 y la Composition API.",
+        "en": "Discover best practices for developing scalable applications with Vue.js 3 and the Composition API."
+      },
+      "content": {
+        "es": "Vue.js 3 ha traído muchas mejoras significativas...",
+        "en": "Vue.js 3 has brought many significant improvements..."
+      },
+      "image": "img/blog1.jpg",
+      "date": "2026-01-15",
+      "readTime": 8,
+      "category": {
+        "es": "Frontend",
+        "en": "Frontend"
+      },
+      "tags": ["Vue.js", "JavaScript", "Frontend"]
+    },
+    {
+      "id": 2,
+      "title": {
+        "es": "Optimización de Performance en React",
+        "en": "Performance Optimization in React"
+      },
+      "excerpt": {
+        "es": "Técnicas avanzadas para mejorar el rendimiento de tus aplicaciones React.",
+        "en": "Advanced techniques to improve the performance of your React applications."
+      },
+      "content": {
+        "es": "La optimización de performance es crucial...",
+        "en": "Performance optimization is crucial..."
+      },
+      "image": "img/blog2.jpg",
+      "date": "2026-01-10",
+      "readTime": 10,
+      "category": {
+        "es": "Frontend",
+        "en": "Frontend"
+      },
+      "tags": ["React", "Performance", "JavaScript"]
+    },
+    {
+      "id": 3,
+      "title": {
+        "es": "Arquitectura de Microservicios con Node.js",
+        "en": "Microservices Architecture with Node.js"
+      },
+      "excerpt": {
+        "es": "Cómo diseñar y implementar una arquitectura de microservicios escalable.",
+        "en": "How to design and implement a scalable microservices architecture."
+      },
+      "content": {
+        "es": "Los microservicios son un patrón arquitectónico...",
+        "en": "Microservices are an architectural pattern..."
+      },
+      "image": "img/blog3.jpg",
+      "date": "2026-01-05",
+      "readTime": 12,
+      "category": {
+        "es": "Backend",
+        "en": "Backend"
+      },
+      "tags": ["Node.js", "Microservices", "Architecture"]
+    }
+  ]
+}

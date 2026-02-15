@@ -1,0 +1,74 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "María González",
+      "position": {
+        "es": "CEO, TechStart",
+        "en": "CEO, TechStart"
+      },
+      "rating": 5,
+      "comment": {
+        "es": "Excelente profesional. Luis desarrolló nuestra plataforma web superando todas las expectativas. Su código es limpio y bien documentado.",
+        "en": "Excellent professional. Luis developed our web platform exceeding all expectations. His code is clean and well documented."
+      },
+      "image": "img/testimonial1.jpg",
+      "date": "2025-12-20"
+    },
+    {
+      "id": 2,
+      "name": "Carlos Ramírez",
+      "position": {
+        "es": "CTO, InnovateLab",
+        "en": "CTO, InnovateLab"
+      },
+      "rating": 5,
+      "comment": {
+        "es": "Trabajar con Luis fue una experiencia increíble. Su conocimiento técnico y capacidad de resolver problemas son excepcionales.",
+        "en": "Working with Luis was an incredible experience. His technical knowledge and problem-solving ability are exceptional."
+      },
+      "image": "img/testimonial2.jpg",
+      "date": "2025-11-15"
+    },
+    {
+      "id": 3,
+      "name": "Ana Martínez",
+      "position": {
+        "es": "Fundadora, EduApp",
+        "en": "Founder, EduApp"
+      },
+      "rating": 5,
+      "comment": {
+        "es": "Luis entregó nuestro proyecto a tiempo y con la más alta calidad. Su comunicación fue excelente durante todo el proceso.",
+        "en": "Luis delivered our project on time and with the highest quality. His communication was excellent throughout the process."
+      },
+      "image": "img/testimonial3.jpg",
+      "date": "2025-10-30"
+    },
+    {
+      "id": 4,
+      "name": "Roberto Silva",
+      "position": {
+        "es": "Director, Digital Solutions",
+        "en": "Director, Digital Solutions"
+      },
+      "rating": 5,
+      "comment": {
+        "es": "Muy recomendable. Luis no solo programó lo que pedimos, sino que también propuso mejoras que añadieron valor al proyecto.",
+        "en": "Highly recommended. Luis not only coded what we asked for, but also proposed improvements that added value to the project."
+      },
+      "image": "img/testimonial4.jpg",
+      "date": "2025-09-18"
+    }
+  ],
+  "companies": [
+    {
+      "name": "EDUC",
+      "logo": "img/company-educ.png"
+    },
+    {
+      "name": "Proyectos CSI",
+      "logo": "img/company-csi.png"
+    }
+  ]
+}

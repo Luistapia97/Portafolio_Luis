@@ -1,0 +1,92 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": {
+        "es": "¿Cuál es tu proceso de trabajo?",
+        "en": "What is your work process?"
+      },
+      "answer": {
+        "es": "Mi proceso consta de 5 fases: 1) Discovery (entender tus necesidades), 2) Planificación (arquitectura y diseño), 3) Desarrollo (codificación iterativa), 4) Testing (pruebas exhaustivas), 5) Deployment y soporte. Mantengo comunicación constante en cada fase.",
+        "en": "My process consists of 5 phases: 1) Discovery (understanding your needs), 2) Planning (architecture and design), 3) Development (iterative coding), 4) Testing (thorough testing), 5) Deployment and support. I maintain constant communication in each phase."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "es": "¿Qué tecnologías utilizas principalmente?",
+        "en": "What technologies do you mainly use?"
+      },
+      "answer": {
+        "es": "Frontend: Vue.js, React, HTML5/CSS3, JavaScript/TypeScript. Backend: Node.js, Python. Bases de datos: MySQL, PostgreSQL, MongoDB. DevOps: Docker, Git, CI/CD. Siempre elijo la tecnología más adecuada para cada proyecto.",
+        "en": "Frontend: Vue.js, React, HTML5/CSS3, JavaScript/TypeScript. Backend: Node.js, Python. Databases: MySQL, PostgreSQL, MongoDB. DevOps: Docker, Git, CI/CD. I always choose the most suitable technology for each project."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "es": "¿Cuánto tiempo toma un proyecto típico?",
+        "en": "How long does a typical project take?"
+      },
+      "answer": {
+        "es": "Depende del alcance. Una landing page: 1-2 semanas. Una aplicación web completa: 1-3 meses. Una app móvil: 2-4 meses. Siempre proporciono un cronograma detallado después de la fase de discovery.",
+        "en": "It depends on the scope. A landing page: 1-2 weeks. A complete web application: 1-3 months. A mobile app: 2-4 months. I always provide a detailed timeline after the discovery phase."
+      }
+    },
+    {
+      "id": 4,
+      "question": {
+        "es": "¿Ofreces soporte post-lanzamiento?",
+        "en": "Do you offer post-launch support?"
+      },
+      "answer": {
+        "es": "Sí, ofrezco 30 días de soporte gratuito después del lanzamiento para correcciones de bugs. También ofrezco planes de mantenimiento mensual que incluyen actualizaciones, optimización y soporte técnico continuo.",
+        "en": "Yes, I offer 30 days of free support after launch for bug fixes. I also offer monthly maintenance plans that include updates, optimization and continuous technical support."
+      }
+    },
+    {
+      "id": 5,
+      "question": {
+        "es": "¿Cómo funcionan los pagos?",
+        "en": "How do payments work?"
+      },
+      "answer": {
+        "es": "Generalmente trabajo con 3 pagos: 30% al inicio, 40% a mitad del proyecto, y 30% al finalizar. Para proyectos pequeños puede ser 50% inicio y 50% final. Acepto transferencias bancarias y efectivo.",
+        "en": "I generally work with 3 payments: 30% at the start, 40% midway through the project, and 30% upon completion. For small projects it can be 50% start and 50% end. I accept bank transfers and cash payments."
+      }
+    },
+    {
+      "id": 6,
+      "question": {
+        "es": "¿Firmas acuerdos de confidencialidad (NDA)?",
+        "en": "Do you sign non-disclosure agreements (NDA)?"
+      },
+      "answer": {
+        "es": "Absolutamente. Estoy dispuesto a firmar NDAs antes de discutir cualquier detalle del proyecto. La confidencialidad de tus ideas y datos es mi prioridad.",
+        "en": "Absolutely. I am willing to sign NDAs before discussing any project details. The confidentiality of your ideas and data is my priority."
+      }
+    },
+    {
+      "id": 7,
+      "question": {
+        "es": "¿Entregas el código fuente?",
+        "en": "Do you deliver the source code?"
+      },
+      "answer": {
+        "es": "Sí, al finalizar el proyecto entregas todo el código fuente, documentación, y credenciales necesarias. El código es 100% tuyo sin ninguna restricción.",
+        "en": "Yes, upon project completion you receive all source code, documentation, and necessary credentials. The code is 100% yours with no restrictions."
+      }
+    },
+    {
+      "id": 8,
+      "question": {
+        "es": "¿Trabajas con equipos existentes?",
+        "en": "Do you work with existing teams?"
+      },
+      "answer": {
+        "es": "Por supuesto. Tengo experiencia trabajando en equipos distribuidos usando metodologías ágiles (Scrum/Kanban). Me adapto fácilmente a workflows y herramientas existentes.",
+        "en": "Of course. I have experience working in distributed teams using agile methodologies (Scrum/Kanban). I easily adapt to existing workflows and tools."
+      }
+    }
+  ]
+}

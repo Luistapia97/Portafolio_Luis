@@ -1,0 +1,120 @@
+{
+  "es": {
+    "nav": {
+      "inicio": "INICIO",
+      "sobremi": "SOBRE MI",
+      "stats": "ESTADÍSTICAS",
+      "skills": "SKILLS",
+      "servicios": "SERVICIOS",
+      "workflow": "PROCESO",
+      "packages": "PAQUETES",
+      "testimonios": "TESTIMONIOS",
+      "curriculum": "CURRICULUM",
+      "portfolio": "PORTFOLIO",
+      "contacto": "CONTACTO"
+    },
+    "stats": {
+      "years": "Años de Experiencia",
+      "lines": "Líneas de Código",
+      "coffee": "Tazas de Café",
+      "tech": "Tecnologías Dominadas"
+    },
+    "services": {
+      "title": "Servicios Profesionales",
+      "subtitle": "Soluciones tecnológicas a tu medida",
+      "cta": "Solicitar Cotización"
+    },
+    "workflow": {
+      "title": "Proceso de Trabajo",
+      "subtitle": "Cómo llevamos tu proyecto al éxito",
+      "duration": "Duración",
+      "deliverables": "Entregables"
+    },
+    "packages": {
+      "title": "Paquetes y Planes",
+      "subtitle": "Elige el plan perfecto para tu proyecto",
+      "selectPlan": "Seleccionar Plan",
+      "popular": "Más Popular",
+      "idealFor": "Ideal para",
+      "notIncluded": "No incluido"
+    },
+    "testimonials": {
+      "title": "Testimonios",
+      "subtitle": "Lo que dicen mis clientes"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes"
+    },
+    "workTogether": {
+      "title": "¿Por qué trabajar conmigo?",
+      "cta": "Comencemos a trabajar juntos"
+    },
+    "resources": {
+      "title": "Recursos Descargables",
+      "download": "Descargar"
+    },
+    "footer": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos y Condiciones"
+    }
+  },
+  "en": {
+    "nav": {
+      "inicio": "HOME",
+      "sobremi": "ABOUT ME",
+      "stats": "STATISTICS",
+      "skills": "SKILLS",
+      "servicios": "SERVICES",
+      "workflow": "PROCESS",
+      "packages": "PACKAGES",
+      "testimonios": "TESTIMONIALS",
+      "curriculum": "RESUME",
+      "portfolio": "PORTFOLIO",
+      "contacto": "CONTACT"
+    },
+    "stats": {
+      "years": "Years of Experience",
+      "lines": "Lines of Code",
+      "coffee": "Cups of Coffee",
+      "tech": "Technologies Mastered"
+    },
+    "services": {
+      "title": "Professional Services",
+      "subtitle": "Tailored technology solutions",
+      "cta": "Request Quote"
+    },
+    "workflow": {
+      "title": "Work Process",
+      "subtitle": "How we bring your project to success",
+      "duration": "Duration",
+      "deliverables": "Deliverables"
+    },
+    "packages": {
+      "title": "Packages and Plans",
+      "subtitle": "Choose the perfect plan for your project",
+      "selectPlan": "Select Plan",
+      "popular": "Most Popular",
+      "idealFor": "Ideal for",
+      "notIncluded": "Not included"
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What my clients say"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions"
+    },
+    "workTogether": {
+      "title": "Why work with me?",
+      "cta": "Let's start working together"
+    },
+    "resources": {
+      "title": "Downloadable Resources",
+      "download": "Download"
+    },
+    "footer": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms and Conditions"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "workflow": [
+    {
+      "id": 1,
+      "icon": "fa-comments",
+      "title": {
+        "es": "Consulta Inicial",
+        "en": "Initial Consultation"
+      },
+      "description": {
+        "es": "Reunión para entender tus necesidades, objetivos del proyecto y requisitos específicos. Definimos el alcance y establecemos expectativas claras.",
+        "en": "Meeting to understand your needs, project goals, and specific requirements. We define the scope and set clear expectations."
+      },
+      "duration": {
+        "es": "1-2 días",
+        "en": "1-2 days"
+      },
+      "deliverables": {
+        "es": ["Análisis de requisitos", "Propuesta detallada", "Cotización"],
+        "en": ["Requirements analysis", "Detailed proposal", "Quote"]
+      }
+    },
+    {
+      "id": 2,
+      "icon": "fa-pencil-ruler",
+      "title": {
+        "es": "Diseño y Planificación",
+        "en": "Design and Planning"
+      },
+      "description": {
+        "es": "Creación de wireframes, prototipos y arquitectura del sistema. Selección de tecnologías y definición de la estructura del proyecto.",
+        "en": "Creation of wireframes, prototypes, and system architecture. Technology selection and project structure definition."
+      },
+      "duration": {
+        "es": "3-5 días",
+        "en": "3-5 days"
+      },
+      "deliverables": {
+        "es": ["Mockups/Wireframes", "Arquitectura técnica", "Plan de proyecto"],
+        "en": ["Mockups/Wireframes", "Technical architecture", "Project plan"]
+      }
+    },
+    {
+      "id": 3,
+      "icon": "fa-code",
+      "title": {
+        "es": "Desarrollo",
+        "en": "Development"
+      },
+      "description": {
+        "es": "Implementación del código siguiendo las mejores prácticas. Desarrollo iterativo con entregas parciales para tu revisión y feedback continuo.",
+        "en": "Code implementation following best practices. Iterative development with partial deliveries for your review and continuous feedback."
+      },
+      "duration": {
+        "es": "Variable según proyecto",
+        "en": "Variable per project"
+      },
+      "deliverables": {
+        "es": ["Código fuente", "Actualizaciones semanales", "Demos funcionales"],
+        "en": ["Source code", "Weekly updates", "Functional demos"]
+      }
+    },
+    {
+      "id": 4,
+      "icon": "fa-vial",
+      "title": {
+        "es": "Testing y QA",
+        "en": "Testing and QA"
+      },
+      "description": {
+        "es": "Pruebas exhaustivas de funcionalidad, rendimiento y compatibilidad. Corrección de bugs y optimización antes del lanzamiento.",
+        "en": "Comprehensive functionality, performance, and compatibility testing. Bug fixes and optimization before launch."
+      },
+      "duration": {
+        "es": "2-4 días",
+        "en": "2-4 days"
+      },
+      "deliverables": {
+        "es": ["Reporte de testing", "Correcciones aplicadas", "Documentación"],
+        "en": ["Testing report", "Applied fixes", "Documentation"]
+      }
+    },
+    {
+      "id": 5,
+      "icon": "fa-rocket",
+      "title": {
+        "es": "Lanzamiento",
+        "en": "Launch"
+      },
+      "description": {
+        "es": "Despliegue en producción, configuración de servidores y dominios. Monitoreo post-lanzamiento para garantizar estabilidad.",
+        "en": "Production deployment, server and domain configuration. Post-launch monitoring to ensure stability."
+      },
+      "duration": {
+        "es": "1-2 días",
+        "en": "1-2 days"
+      },
+      "deliverables": {
+        "es": ["Proyecto en vivo", "Guía de uso", "Capacitación"],
+        "en": ["Live project", "User guide", "Training"]
+      }
+    },
+    {
+      "id": 6,
+      "icon": "fa-headset",
+      "title": {
+        "es": "Soporte y Mantenimiento",
+        "en": "Support and Maintenance"
+      },
+      "description": {
+        "es": "Soporte técnico continuo, actualizaciones de seguridad y mejoras. Disponible según el plan de mantenimiento contratado.",
+        "en": "Ongoing technical support, security updates, and improvements. Available according to contracted maintenance plan."
+      },
+      "duration": {
+        "es": "Continuo",
+        "en": "Ongoing"
+      },
+      "deliverables": {
+        "es": ["Soporte técnico", "Actualizaciones", "Backups regulares"],
+        "en": ["Technical support", "Updates", "Regular backups"]
+      }
+    }
+  ]
+}

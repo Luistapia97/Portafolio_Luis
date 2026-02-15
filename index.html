@@ -5,9 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio de Luis Alberto Ramírez Tapia - Ingeniero de Software especializado en desarrollo web full-stack, Vue.js, React y JavaScript">
+    <meta name="keywords" content="desarrollador web, full-stack, Vue.js, React, Node.js, portfolio, ingeniero software">
+    <meta name="author" content="Luis Alberto Ramírez Tapia">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://luistapia97.github.io/Portafolio_Luis/">
+    <meta property="og:title" content="Luis Alberto Ramírez Tapia - Ingeniero de Software">
+    <meta property="og:description" content="Portfolio profesional de desarrollo web full-stack. Especializado en Vue.js, React, Node.js y aplicaciones móviles.">
+    <meta property="og:image" content="https://luistapia97.github.io/Portafolio_Luis/img/picPortafolio-luis.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://luistapia97.github.io/Portafolio_Luis/">
+    <meta property="twitter:title" content="Luis Alberto Ramírez Tapia - Ingeniero de Software">
+    <meta property="twitter:description" content="Portfolio profesional de desarrollo web full-stack">
+    <meta property="twitter:image" content="https://luistapia97.github.io/Portafolio_Luis/img/picPortafolio-luis.jpg">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
+    <title>Luis Alberto Ramírez Tapia - Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilos-nuevos.css">
 </head>
 <body>
     <!-- MENU ENCABEZADO -->
@@ -18,14 +36,21 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()" data-translate="nav.inicio">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()" data-translate="nav.sobremi">SOBRE MI</a></li>
+                    <li><a href="#servicios" onclick="seleccionar()" data-translate="nav.servicios">SERVICIOS</a></li>
+                    <li><a href="#skills" onclick="seleccionar()" data-translate="nav.skills">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()" data-translate="nav.curriculum">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()" data-translate="nav.portfolio">PORTFOLIO</a></li>
+                    <li><a href="#workflow" onclick="seleccionar()" data-translate="nav.workflow">PROCESO</a></li>
+                    <li><a href="#packages" onclick="seleccionar()" data-translate="nav.packages">PAQUETES</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()" data-translate="nav.contacto">CONTACTO</a></li>
                 </ul>
             </nav>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="es">ES</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -39,10 +64,15 @@
                 <img src="img/picPortafolio-luis.jpg" alt="">
             </div>
             <h1>Luis Alberto Ramírez Tapia</h1>
-            <h2>Ingeniero de Software </h2>
+            <h2>Ingeniero de Software</h2>
+            <div class="availability">
+                <span class="status-dot"></span>
+                <span>Disponible para nuevos proyectos</span>
+            </div>
             <div class="redes">
                 <a href="https://www.linkedin.com/in/luis-ramírez-tapia-dev" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://github.com/luistapia97" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/523121408235" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </div>
     </section>
@@ -129,6 +159,49 @@
             </button>
         </div>
     </section>
+
+    <!-- SECCION ESTADISTICAS -->
+    <section class="stats">
+        <div class="contenido-seccion">
+            <div class="stat-item">
+                <i class="fa-solid fa-calendar-check"></i>
+                <div class="stat-number" data-target="1">0</div>
+                <p data-translate="stats.years">Años de Experiencia</p>
+            </div>
+            <div class="stat-item">
+                <i class="fa-solid fa-code"></i>
+                <div class="stat-number" data-target="50000">0</div>
+                <p data-translate="stats.lines">Líneas de Código</p>
+            </div>
+            <div class="stat-item">
+                <i class="fa-solid fa-mug-hot"></i>
+                <div class="stat-number" data-target="500">0</div>
+                <p data-translate="stats.coffee">Tazas de Café</p>
+            </div>
+            <div class="stat-item">
+                <i class="fa-solid fa-laptop-code"></i>
+                <div class="stat-number" data-target="15">0</div>
+                <p data-translate="stats.tech">Tecnologías Dominadas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="contenido-seccion">
+            <h2 data-translate="services.title">Servicios Profesionales</h2>
+            <p class="subtitle" data-translate="services.subtitle">Soluciones tecnológicas a tu medida</p>
+            <div class="servicios-grid" id="servicios-grid"></div>
+        </div>
+    </section>
+
+    <!-- MODAL SERVICIOS -->
+    <div id="modalServicio" class="modal-servicio">
+        <div class="modal-contenido-servicio">
+            <span class="cerrar-modal" onclick="cerrarModalServicio()">&times;</span>
+            <div id="modal-servicio-body"></div>
+        </div>
+    </div>
 
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">
@@ -221,6 +294,63 @@
                                 <span>90%</span>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CERTIFICACIONES -->
+    <section class="certifications">
+        <div class="contenido-seccion">
+            <h2>Certificaciones</h2>
+            <div class="certifications-grid" id="certifications-grid"></div>
+        </div>
+    </section>
+
+    <!-- SECCION TECH STACK -->
+    <section class="tech-stack">
+        <div class="contenido-seccion">
+            <h2>Stack Tecnológico</h2>
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h3><i class="fa-solid fa-display"></i> Frontend</h3>
+                    <div class="tech-items">
+                        <div class="tech-item"><i class="fa-brands fa-html5"></i> HTML5</div>
+                        <div class="tech-item"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                        <div class="tech-item"><i class="fa-brands fa-js"></i> JavaScript</div>
+                        <div class="tech-item"><i class="fa-brands fa-vuejs"></i> Vue.js</div>
+                        <div class="tech-item"><i class="fa-brands fa-react"></i> React</div>
+                        <div class="tech-item"><i class="fa-brands fa-bootstrap"></i> Bootstrap</div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3><i class="fa-solid fa-server"></i> Backend</h3>
+                    <div class="tech-items">
+                        <div class="tech-item"><i class="fa-brands fa-node-js"></i> Node.js</div>
+                        <div class="tech-item"><i class="fa-brands fa-python"></i> Python</div>
+                        <div class="tech-item"><i class="fa-solid fa-database"></i> MySQL</div>
+                        <div class="tech-item"><i class="fa-solid fa-database"></i> MongoDB</div>
+                        <div class="tech-item"><i class="fa-solid fa-plug"></i> REST APIs</div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3><i class="fa-solid fa-mobile-screen-button"></i> Mobile</h3>
+                    <div class="tech-items">
+                        <div class="tech-item"><i class="fa-brands fa-android"></i> Flutter</div>
+                        <div class="tech-item"><i class="fa-brands fa-react"></i> React Native</div>
+                        <div class="tech-item"><i class="fa-brands fa-apple"></i> iOS</div>
+                        <div class="tech-item"><i class="fa-brands fa-android"></i> Android</div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3><i class="fa-solid fa-gears"></i> DevOps & Tools</h3>
+                    <div class="tech-items">
+                        <div class="tech-item"><i class="fa-brands fa-git-alt"></i> Git</div>
+                        <div class="tech-item"><i class="fa-brands fa-github"></i> GitHub</div>
+                        <div class="tech-item"><i class="fa-brands fa-docker"></i> Docker</div>
+                        <div class="tech-item"><i class="fa-solid fa-code-branch"></i> CI/CD</div>
+                        <div class="tech-item"><i class="fa-brands fa-linux"></i> Linux</div>
                     </div>
                 </div>
             </div>
@@ -326,50 +456,27 @@
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
             <h2>PORTAFOLIO</h2>
-            <div class="galeria">
-                <div class="proyecto" onclick="abrirModal(0)">
-                    <img src="img/p1.jpg" alt="Proyecto 1">
-                    <div class="overlay">
-                        <h3>Educ</h3>
-                        <p>Plataforma Educativa</p>
-                    </div>
+            
+            <!-- Filtros y Búsqueda -->
+            <div class="portfolio-controls">
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="Vue.js">Vue.js</button>
+                    <button class="filter-btn" data-filter="React">React</button>
+                    <button class="filter-btn" data-filter="Node.js">Node.js</button>
+                    <button class="filter-btn" data-filter="Python">Python</button>
+                    <button class="filter-btn" data-filter="Flutter">Flutter</button>
                 </div>
-                <div class="proyecto" onclick="abrirModal(1)">
-                    <img src="img/p2.jpg" alt="Proyecto 2">
-                    <div class="overlay">
-                        <h3>Web - EDA</h3>
-                        <p>Análisis de Datos con IA</p>
-                    </div>
-                </div>
-                <div class="proyecto" onclick="abrirModal(2)">
-                    <img src="img/p3.jpg" alt="Proyecto 3">
-                    <div class="overlay">
-                        <h3>NEXUS APP</h3>
-                        <p>Gestión de Proyectos</p>
-                    </div>
-                </div>
-                <div class="proyecto" onclick="abrirModal(3)">
-                    <img src="img/p4.jpg" alt="Proyecto 4">
-                    <div class="overlay">
-                        <h3>App Móvil</h3>
-                        <p>Control de Gastos</p>
-                    </div>
-                </div>
-                <div class="proyecto" onclick="abrirModal(4)">
-                    <img src="img/p5.jpg" alt="Proyecto 5">
-                    <div class="overlay">
-                        <h3>Portfolio Web</h3>
-                        <p>Diseño Responsivo</p>
-                    </div>
-                </div>
-                <div class="proyecto" onclick="abrirModal(5)">
-                    <img src="img/p6.jpg" alt="Proyecto 6">
-                    <div class="overlay">
-                        <h3>Sistema de Reservas</h3>
-                        <p>Backend + Frontend</p>
-                    </div>
+                <div class="portfolio-search">
+                    <input type="text" id="search-input" placeholder="Buscar proyectos..." />
+                    <i class="fa-solid fa-search"></i>
                 </div>
             </div>
+
+            <div class="galeria" id="galeria-proyectos"></div>
+        </div>
+    </section>
+            <div class="galeria" id="galeria-proyectos"></div>
         </div>
     </section>
 
@@ -389,6 +496,150 @@
             </div>
         </div>
     </div>
+
+    <!-- SECCION PROCESO DE TRABAJO -->
+    <section id="workflow" class="workflow">
+        <div class="contenido-seccion">
+            <h2 data-translate="workflow.title">Proceso de Trabajo</h2>
+            <p class="subtitle" data-translate="workflow.subtitle">Cómo llevamos tu proyecto al éxito</p>
+            <div class="workflow-timeline" id="workflow-timeline"></div>
+        </div>
+    </section>
+
+    <!-- SECCION PAQUETES -->
+    <section id="packages" class="packages">
+        <div class="contenido-seccion">
+            <h2 data-translate="packages.title">Paquetes y Planes</h2>
+            <p class="subtitle" data-translate="packages.subtitle">Elige el plan perfecto para tu proyecto</p>
+            <div class="packages-grid" id="packages-grid"></div>
+        </div>
+    </section>
+
+    <!-- SECCION TESTIMONIOS -->
+    <section class="testimonios">
+        <div class="contenido-seccion">
+            <h2 data-translate="testimonials.title">Testimonios</h2>
+            <p class="subtitle" data-translate="testimonials.subtitle">Lo que dicen mis clientes</p>
+            
+            <div class="testimonial-carousel">
+                <button class="carousel-btn prev" onclick="prevTestimonial()">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <div class="testimonial-container" id="testimonial-container"></div>
+                <button class="carousel-btn next" onclick="nextTestimonial()">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="carousel-dots" id="carousel-dots"></div>
+            
+            <div class="companies">
+                <h3>He trabajado con:</h3>
+                <div class="companies-logos" id="companies-logos"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION FAQ -->
+    <section class="faq">
+        <div class="contenido-seccion">
+            <h2 data-translate="faq.title">Preguntas Frecuentes</h2>
+            <div class="faq-container" id="faq-container"></div>
+        </div>
+    </section>
+
+    <!-- SECCION TRABAJEMOS JUNTOS -->
+    <section class="work-together">
+        <div class="contenido-seccion">
+            <h2 data-translate="workTogether.title">¿Por qué trabajar conmigo?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>Entrega a Tiempo</h3>
+                    <p>Cumplimiento garantizado de plazos y deadlines acordados</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Código Limpio</h3>
+                    <p>Código bien estructurado, documentado y fácil de mantener</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fa-solid fa-comments"></i>
+                    <h3>Comunicación Constante</h3>
+                    <p>Updates frecuentes sobre el progreso del proyecto</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Seguridad</h3>
+                    <p>Implementación de las mejores prácticas de seguridad</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Diseños que funcionan en todos los dispositivos</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>Soporte Post-Lanzamiento</h3>
+                    <p>30 días de soporte gratuito incluido</p>
+                </div>
+            </div>
+            <div class="cta-buttons">
+                <button onclick="scrollToContact()" class="btn-primary">
+                    <span data-translate="workTogether.cta">Comencemos a trabajar juntos</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <button onclick="window.open('https://calendly.com/luistapia97')" class="btn-secondary">
+                    Agenda una llamada
+                    <i class="fa-solid fa-calendar"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION RECURSOS -->
+    <section class="resources">
+        <div class="contenido-seccion">
+            <h2 data-translate="resources.title">Recursos Descargables</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <h3>CV Español</h3>
+                    <p>Currículum completo en español</p>
+                    <button onclick="window.open('docs/CV_Luis_ES.pdf')">
+                        <span data-translate="resources.download">Descargar</span>
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+                </div>
+                <div class="resource-card">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <h3>CV English</h3>
+                    <p>Complete resume in English</p>
+                    <button onclick="window.open('docs/CV_Luis_EN.pdf')">
+                        <span data-translate="resources.download">Download</span>
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+                </div>
+                <div class="resource-card">
+                    <i class="fa-solid fa-images"></i>
+                    <h3>Portfolio PDF</h3>
+                    <p>Portafolio completo en formato PDF</p>
+                    <button onclick="window.open('docs/Portfolio_Luis.pdf')">
+                        <span data-translate="resources.download">Descargar</span>
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+                </div>
+                <div class="resource-card">
+                    <i class="fa-solid fa-address-card"></i>
+                    <h3>vCard</h3>
+                    <p>Tarjeta de contacto digital</p>
+                    <button onclick="downloadVCard()">
+                        <span data-translate="resources.download">Descargar</span>
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
@@ -441,8 +692,55 @@
         <div class="redes">
             <a href="https://www.linkedin.com/in/luis-ramírez-tapia-dev" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
             <a href="https://github.com/luistapia97" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://wa.me/523121408235" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="#" onclick="openPrivacyModal()"><span data-translate="footer.privacy">Política de Privacidad</span></a>
+            <a href="#" onclick="openTermsModal()"><span data-translate="footer.terms">Términos y Condiciones</span></a>
         </div>
     </footer>
+
+    <!-- MODAL PRIVACY POLICY -->
+    <div id="modalPrivacy" class="modal-legal">
+        <div class="modal-contenido-legal">
+            <span class="cerrar-modal" onclick="closePrivacyModal()">&times;</span>
+            <h2>Política de Privacidad</h2>
+            <div class="legal-content">
+                <p>Última actualización: Enero 2026</p>
+                <h3>1. Información que recopilamos</h3>
+                <p>Recopilamos información que usted nos proporciona directamente cuando: llena el formulario de contacto, se suscribe a nuestro newsletter, o descarga recursos.</p>
+                <h3>2. Uso de la información</h3>
+                <p>Utilizamos la información recopilada para: responder a sus consultas, enviar información solicitada, mejorar nuestros servicios.</p>
+                <h3>3. Protección de datos</h3>
+                <p>Implementamos medidas de seguridad para proteger su información personal contra acceso no autorizado.</p>
+                <h3>4. Cookies</h3>
+                <p>Este sitio utiliza cookies para mejorar la experiencia del usuario y recordar preferencias.</p>
+                <h3>5. Contacto</h3>
+                <p>Para preguntas sobre esta política, contáctenos en: luistapia97.dev@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL TERMS -->
+    <div id="modalTerms" class="modal-legal">
+        <div class="modal-contenido-legal">
+            <span class="cerrar-modal" onclick="closeTermsModal()">&times;</span>
+            <h2>Términos y Condiciones</h2>
+            <div class="legal-content">
+                <p>Última actualización: Enero 2026</p>
+                <h3>1. Aceptación de términos</h3>
+                <p>Al acceder y usar este sitio web, usted acepta estar sujeto a estos términos y condiciones.</p>
+                <h3>2. Servicios</h3>
+                <p>Los servicios ofrecidos están sujetos a disponibilidad y pueden ser modificados sin previo aviso.</p>
+                <h3>3. Propiedad intelectual</h3>
+                <p>Todo el contenido de este sitio es propiedad de Luis Alberto Ramírez Tapia y está protegido por leyes de propiedad intelectual.</p>
+                <h3>4. Limitación de responsabilidad</h3>
+                <p>No nos hacemos responsables de daños directos, indirectos o consecuentes derivados del uso de este sitio.</p>
+                <h3>5. Modificaciones</h3>
+                <p>Nos reservamos el derecho de modificar estos términos en cualquier momento.</p>
+            </div>
+        </div>
+    </div>
 
     <!-- EmailJS SDK -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
